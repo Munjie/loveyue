@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!-- saved from url=(0027)http://itzoo.info/love.html -->
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Love</title>
+        <title>LoveSaisai</title>
         
         <link type="text/css" rel="stylesheet" href="./Love_files/default.css">
         <script type="text/javascript" src="./Love_files/jquery.min.js"></script>
@@ -21,31 +21,31 @@
             <div id="wrap">
                <div id="text">
                     <div id="code">                 
-                    <span class="say">我的爱人，我会牵着你的手，走到满头白发的那一天，</span><br>
-                    <span class="say">我会守护你生命里的精彩，并陪伴你一路精彩下去。</span><br>
-                    <span class="say">你的幸福快乐，是我一生的追求。</span><br>
-                    <span class="say">我会每一天带着笑脸，和你说早安，</span><br>
-                     <span class="say">我会每一晚与你道声晚安再入梦乡，</span><br>
-                    <span class="say">我会带你去所有你想去的地方，</span><br>
-                    <span class="say">陪你闹看你笑</span><br>
-                    <span class="say">历经你生命中所有的点点滴滴。</span><br>
+                    <span class="say">亲爱哒，时间过地好快啊，一晃我们认识一年啦，</span><br>
+                    <span class="say">还记得那时候，遇到你时候我偷偷看你，心里砰砰跳。</span><br>
+                    <span class="say">亲爱哒，这一年我们有哭有笑，发生的故事太多啦亲爱哒。</span><br>
+                    <span class="say">我后悔我做错的事情，心里好愧疚</span><br>
+                     <span class="say">我好对不起我家亲爱哒，</span><br>
+                    <span class="say">虽然道歉没用，但是还是要真诚的给我家亲爱哒说声，</span><br>
+                    <span class="say">对不起，亲爱哒！</span><br>
+                    <span class="say">亲爱哒，我会一直陪在你身边，</span><br>
                     <span class="say">我期待这一生与你一起走过，</span><br>
                     <span class="say">我期待与你慢慢变老</span><br>
-                    <span class="say">等我们老到哪儿也去不了，</span><br>
-                    <span class="say">还能满载着一生的幸福快乐 ！</span><br>
+                    <span class="say">陪你去我们想去的地方，</span><br>
+                    <span class="say">做好多你想吃哒美食</span><br>
                     <br>
-                    <span class="say">我会为我们的未来撑起一片天空，</span><br>
-                     <span class="say">为我们的将来担负起一生的责任，</span><br>
-                      <span class="say">愿意为你去做每一件能让你开心快乐的事。</span><br>
+                    <span class="say">亲爱哒，希望我们以后都天天在一起</span><br>
+                     <span class="say">我要包容我家亲爱哒，也不要随便生我家亲爱哒的气，</span><br>
+                      <span class="say">我愿意为你去做每一件能让你开心快乐的事。</span><br>
                        <span class="say">所有我们经历的点点滴滴，</span><br>
-                        <span class="say">都是我们一辈子最美的回忆。</span><br>
-                         <span class="say">我愿意爱你直到老去！</span><br>
+                        <span class="say">都是我们一辈子最美好的回忆。</span><br>
+                         <span class="say">我会永远爱你亲爱哒，永永远远！</span><br>
                    <br>
-                    <span class="say"><span class="space"></span> -- Yours, wuxia2001.</span>
+                    <span class="say"><span class="space"></span> -- 永远爱你的, 小杰杰.</span>
                     </div>
                 </div>
                 <div id="clock-box">
-                    <a href="http://blog.csdn.net/wuxia2001" target="_blank">@wuxia2001</a> 与 <a href="http://blog.csdn.net/wuxia2001" target="_blank">@月亮女</a> 在一起的
+                    <a href="http://blog.csdn.net" target="_blank">小杰杰</a> 与 <a href="http://blog.csdn.net" target="_blank">亲爱哒</a> 在一起的
                         <div id="clock"></div>
                 </div>
                 <canvas id="canvas" width="1100" height="680"></canvas>
@@ -187,16 +187,16 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
             var together = new Date();
-            together.setFullYear(2010, 5, 8);
-            together.setHours(20);
-            together.setMinutes(20);
-            together.setSeconds(0);
+            together.setFullYear(2022, 11, 19);
+            together.setHours(12);
+            together.setMinutes(12);
+            together.setSeconds(12);
             together.setMilliseconds(0);
 
             $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
             while (true) {
-                timeElapse(together);
+                date_getdiffer_date("2022-11-19",1);
                 $await(Jscex.Async.sleep(1000));
             }
         }));
